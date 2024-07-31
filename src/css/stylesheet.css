@@ -1569,14 +1569,20 @@ body {
 	opacity: 0.5;
 	z-index: 9999;
 }
+.friends{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Adjust width as necessary */
+}
 
 .self-border{
-	position: fixed;
+	position:fixed;
 	top:50%;
 	opacity: 1.0;
 	z-index: 9999;
 	width: 13%;
 	height: 20%;
+	margin: 0;
 }
 
 
